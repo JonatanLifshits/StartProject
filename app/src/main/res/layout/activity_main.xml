@@ -4,10 +4,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <Button
-        android:id="@+id/btnWeb"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="web">
-    </Button>
+        android:clickable="true"
+        android:onClick="onclick"
+        android:text="hello"
+        android:textSize="22sp">
+    </TextView>
 </LinearLayout>
