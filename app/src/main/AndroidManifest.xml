@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewActivity"></activity>
+
+        <receiver
+            android:name=".MessageReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter></intent-filter>
+        </receiver>
     </application>
 
 </manifest>
